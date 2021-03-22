@@ -657,10 +657,8 @@ else
 endif
 
 "yaml configuration
-"
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
-set foldlevelstart=20
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 let g:ale_sign_error = '✘'
